@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(45deg,#EA047E 0% 55%,#000 55% 100% );
+}
+.min{
+    width:50%;
+    position:relative;
+    left:25%;
+    top:15%;
+    background: white;
+    padding:20px;
+    border-radius:5px;
+    box-shadow: 3px 7px 13px rgb(216, 207, 207);
+    align-items: center;
+    margin-bottom:15px;
+
+}
+.todo{
+    color:#19A7CE;
+    size:2em;
+    margin:5px;
+    font-family:'Kaushan Script';
+}
+input{
+    width:70%;
+    margin-bottom: 13px;
+    outline: none;
+    height: 23px;
+    margin-right:15px;
+}
+#add{
+    background-color: white;
+    color:#19A7CE;
+    size:3em;
+    padding:5px;
+    border-radius:5px;
+}
+#col{
+    list-style: none;
+    padding:15px;
+    background-color:white;
+}
+.take{
+    margin:5px;
+    padding:3px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #19A7CE;
+    width:45%;
+    cursor:pointer;
+}
+p{
+    display:inline-block;
+    margin-right:25px;
+}
+li{
+    display:flex;
+    justify-content: space-between;
+}
+li button{
+    position:relative;
+    right:5px;
+    top:0px;
+    padding:5px;
+    background-color: white;
+    color: #19A7CE;
+    size:1.5em;
+    border-radius:50%;
+}
+#taks{
+    position:relative;
+    left:25%;
+    top:30%;
+    width:53%;
+    align-items:center;
+    border-radius:25px;
+
+}
+.completed{
+    opacity:0.71;
+    font-size: 0.9em;
+    text-decoration:line-through;
+}
+@keyframes name{
+    0%{
+        visibility: visible;
+        width:0%;
+    }
+    40%{
+        width:61%;
+    }
+    100%{
+        width:100%;
+    }
+}
